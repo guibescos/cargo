@@ -91,8 +91,8 @@ pub fn resolve_std<'cfg>(
         "compiler_builtins",
         None,
         SourceId::for_git(
-            &("https://github.com/solana-labs/compiler-builtins".parse()).unwrap(),
-            GitReference::Tag("bpf-tools-v1.27".to_string()),
+            &("https://github.com/guibescos/compiler-builtins".parse()).unwrap(),
+            GitReference::Rev("6a900f712773f040eeef8fa4ea18beb45f14f898".to_string()),
         )?,
     )?);
     let crates_io_url = crate::sources::CRATES_IO_INDEX.parse().unwrap();
