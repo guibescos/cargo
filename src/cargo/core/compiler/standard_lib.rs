@@ -91,8 +91,8 @@ pub fn resolve_std<'cfg>(
         "compiler_builtins",
         None,
         SourceId::for_git(
-            &("https://github.com/guibescos/compiler-builtins".parse()).unwrap(),
-            GitReference::Rev("6a900f712773f040eeef8fa4ea18beb45f14f898".to_string()),
+            &("https://github.com/solana-labs/compiler-builtins".parse()).unwrap(),
+            GitReference::Rev("38279cb2b80a822b8dbd8d48f155ee5ceacd43e2".to_string()),
         )?,
     )?);
     let crates_io_url = crate::sources::CRATES_IO_INDEX.parse().unwrap();
