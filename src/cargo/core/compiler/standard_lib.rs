@@ -92,7 +92,7 @@ pub fn resolve_std<'cfg>(
         None,
         SourceId::for_git(
             &("https://github.com/solana-labs/compiler-builtins".parse()).unwrap(),
-            GitReference::Tag("sbf-tools-v1.31".to_string()),
+            GitReference::Tag("sbf-tools-v1.30".to_string()),
         )?,
     )?);
     let crates_io_url = crate::sources::CRATES_IO_INDEX.parse().unwrap();
